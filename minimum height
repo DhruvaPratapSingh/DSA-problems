@@ -28,6 +28,5 @@ public:
             sort(i.begin(),i.end());
         sort(cuboids.begin(),cuboids.end());
         return solve(cuboids);
-        
     }
 };
